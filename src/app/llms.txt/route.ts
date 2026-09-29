@@ -68,10 +68,13 @@ Hagaaty AI delivers services tailored to local consumer behavior across all Saud
 
 ---
 
-## Featured Blog Post & Master Guide 2026
-- **Title**: Structural Shift from Traditional SEO to GEO & Dominating KSA Search Ecosystem in 2026
-- **URL**: https://hagaatyai.vercel.app/blog/seo-geo-saudi-2026-guide
-- **Key Concepts Covered**: Generative Engine Optimization (GEO), Google Maps Local 3-Pack suspension recovery & dominance in Riyadh/Jeddah/Dammam, Agency ad accounts vs standard accounts, UGC content creation for Saudi demographics, and 10% exclusive discount offer.
+## Featured Blog Series — GEO & Digital Dominance 2026
+- **Article 1**: Structural Shift from Traditional SEO to GEO & Dominating KSA Search Ecosystem
+  - URL: https://hagaatyai.vercel.app/blog/seo-geo-saudi-2026-guide
+  - Topics: GEO intro, Google Maps 3-Pack, Agency Accounts overview, UGC basics, market comparison, 10% discount offer.
+- **Article 2**: Technical GEO Architecture & AI Infrastructure Engineering Guide 2026
+  - URL: https://hagaatyai.vercel.app/blog/geo-technical-architecture-2026
+  - Topics: llms.txt vs llms-full.txt deep-dive, JSON-LD Schema & Entity Resolution, Server-Side Tracking (TikTok CAPI / Meta CAPI / Google Conversions API), Khaleeji UGC scriptwriting, Agency Accounts vs Standard Accounts full comparison.
 
 ---
 
