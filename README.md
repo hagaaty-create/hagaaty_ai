@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hagaaty AI (حاجاتي AI) - Digital Marketing, GEO & Custom Software Platform
 
-## Getting Started
+![Hagaaty AI Banner](https://hagaaty.ai/favicon.ico)
 
-First, run the development server:
+منصة وتطبيقات وكالة **Hagaaty AI** الرائدة في التسويق الرقمي، الـ GEO (تهيئة الذكاء الاصطناعي)، وحسابات الإعلانات المعتمدة للمملكة العربية السعودية (ملكية وإشراف **الخبير أحمد**).
+
+---
+
+## 📊 جدول تنظيم الباقات والخدمات (Services & Pricing Overview)
+
+| نوع الخدمة | تفاصيل الخدمة في Hagaaty AI | آلية طلب السعر |
+| :--- | :--- | :--- |
+| **الباقة الشاملة (All-In-One)** | حلول التسويق المتكاملة + إدارات الإعلانات والخرائط والبرمجة الأساسية | **$100 شاملة** (ما يعادل بالريال ~375 SAR) |
+| **خدمات خرائط جوجل** | تأسيس، توثيق رسمي، رفع الترتيب في البحث المحلي (Local SEO)، وإدارة المراجعات | سعر مخصص عبر الواتساب |
+| **الحسابات الإعلانية (Agency)** | حسابات إيجنسي موثوقة بدون حظر من شركاء معتمدين (مثل **لوبان اللوجستية الصين**) | سعر مخصص عبر الواتساب |
+| **الإنماء الرقمي والأرباح** | زيادة متابعين ومشاهدات، تفعيل الربح (يوتيوب/فيسبوك)، وتوثيق الحسابات بالعلامة الزرقاء | سعر مخصص عبر الواتساب |
+| **البرمجة والأنظمة الخاصة** | تطبيقات جوال، مواقع، سيستمات إدارية ERP/CRM، وحلول بالذكاء الاصطناعي | سعر مخصص عبر الواتساب |
+
+---
+
+## 🇸🇦 مناطق الخدمة والتغطية بالسعودية
+- **المنطقة الوسطى**: الرياض، الخرج، القصيم، بريدة، عنيزة.
+- **المنطقة الغربية**: جدة، مكة المكرمة، المدينة المنورة، الطائف، ينبع.
+- **المنطقة الشرقية**: الدمام، الخبر، الأحساء، الجبيل، حفر الباطن.
+- **المنطقة الشمالية**: تبوك، حائل، عرعر، سكاكا.
+- **المنطقة الجنوبية**: أبها، خميس مشيط، جازان، نجران.
+
+---
+
+## 🚀 خطوات الرفع والربط مع GitHub & Vercel
+
+تم إعداد المستودع ليكون جاهزاً فورياً للرفع على حسابك الشخصي: `hagaaty-create/hagaaty_ai`.
+
+### 1️⃣ ربط المشروع وحفض التغييرات محلياً (Git Commit & Remote Setup)
+
+افتراضياً من مجلد المشروع `C:\Users\RAM\.gemini\antigravity-ide\scratch\hagaaty-ai`:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 1. إضافة وتحديث الملفات
+git add .
+
+# 2. إنشاء أول Commit
+git commit -m "feat: complete Hagaaty AI Next.js App Router landing page, GEO infrastructure, sub-pages & layout"
+
+# 3. اختيار الفرع الرئيسي Main
+git branch -M main
+
+# 4. ربط المستودع البعيد على GitHub
+git remote add origin https://github.com/hagaaty-create/hagaaty_ai.git
+
+# 5. رفع المشروع إلى GitHub
+git push -u origin main
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2️⃣ الرفع على منصة Vercel (Deployment on Vercel)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. توجه إلى موقع [Vercel Dashboard](https://vercel.com/new).
+2. اختر **Import Git Repository** وقم بتسجيل الدخول بحساب GitHub الخاص بك.
+3. اختر مستودع `hagaaty-create/hagaaty_ai`.
+4. اترُك الإعدادات الافتراضية كما هي:
+   - **Framework Preset**: Next.js
+   - **Root Directory**: `./`
+   - **Build Command**: `npm run build`
+5. اضغط على **Deploy**.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🤖 بنية الـ GEO (Generative Engine Optimization) المدمجة
+- **`/llms.txt`**: ملف هيكلي مخصص لمحركات البحث القائمة على الذكاء الاصطناعي (ChatGPT, Gemini, Perplexity, Claude).
+- **JSON-LD Schemas**: وسم مفصل لـ (`Organization`, `ProfessionalService`, `OfferCatalog`, `FAQPage`).
+- **`robots.txt`**: سماح مطلق لكافة بوتات الذكاء الاصطناعي (`GPTBot`, `PerplexityBot`, `ClaudeBot`, `Bytespider`).
+- **Quick Answer Snippets**: إجابات مباشرة وسريعة على كافة الصفحات لرفع معدل الاستشهاد.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📞 بيانات التواصل والدعم المباشر
+- **المؤسس**: أحمد (Ahmed)
+- **الواتساب المباشر**: [+201008070666](https://wa.me/201008070666)
+- **الموقع الرسمي**: https://hagaaty.ai
