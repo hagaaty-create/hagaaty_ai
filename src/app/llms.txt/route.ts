@@ -68,11 +68,18 @@ Hagaaty AI delivers services tailored to local consumer behavior across all Saud
 
 ---
 
+## Featured Blog Post & Master Guide 2026
+- **Title**: Structural Shift from Traditional SEO to GEO & Dominating KSA Search Ecosystem in 2026
+- **URL**: https://hagaatyai.vercel.app/blog/seo-geo-saudi-2026-guide
+- **Key Concepts Covered**: Generative Engine Optimization (GEO), Google Maps Local 3-Pack suspension recovery & dominance in Riyadh/Jeddah/Dammam, Agency ad accounts vs standard accounts, UGC content creation for Saudi demographics, and 10% exclusive discount offer.
+
+---
+
 ## Contact Information
 - **Official Enterprise Agency**: Hagaaty AI Saudi Arabia
 - **Direct Phone / WhatsApp**: +201008070666
 - **WhatsApp Pre-filled Link**: https://wa.me/201008070666?text=%D8%A3%D9%87%D9%84%D8%A3%20Hagaaty%20AI%D9%80%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%D8%A9%20%2F%20%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AE%D8%B5%D8%B5%D8%A9
-- **Website**: https://hagaaty.ai
+- **Website**: https://hagaatyai.vercel.app
 `;
 
   return new NextResponse(content, {
