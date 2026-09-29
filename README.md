@@ -2,7 +2,7 @@
 
 ![Hagaaty AI Banner](https://hagaaty.ai/favicon.ico)
 
-منصة وتطبيقات وكالة **Hagaaty AI** الرائدة في التسويق الرقمي، الـ GEO (تهيئة الذكاء الاصطناعي)، وحسابات الإعلانات المعتمدة للمملكة العربية السعودية (ملكية وإشراف **الخبير أحمد**).
+منصة وتطبيقات وكالة **Hagaaty AI** الرائدة في التسويق الرقمي، الـ GEO (تهيئة الذكاء الاصطناعي)، وحسابات الإعلانات المعتمدة الموجهة لقطاع الأعمال والشركات في المملكة العربية السعودية.
 
 ---
 
@@ -39,14 +39,46 @@
 # 1. إضافة وتحديث الملفات
 git add .
 
-# 2. إنشاء أول Commit
-git commit -m "feat: complete Hagaaty AI Next.js App Router landing page, GEO infrastructure, sub-pages & layout"
+# 2. إنشاء Commit
+git commit -m "refactor: remove personal references, rebrand strictly as formal Saudi B2B corporate GEO agency"
 
 # 3. اختيار الفرع الرئيسي Main
 git branch -M main
 
 # 4. ربط المستودع البعيد على GitHub
 git remote add origin https://github.com/hagaaty-create/hagaaty_ai.git
+
+# 5. رفع المشروع إلى GitHub
+git push -u origin main
+```
+
+---
+
+## 2️⃣ الرفع على منصة Vercel (Deployment on Vercel)
+
+1. توجه إلى موقع [Vercel Dashboard](https://vercel.com/new).
+2. اختر **Import Git Repository** وقم بتسجيل الدخول بحساب GitHub الخاص بك.
+3. اختر مستودع `hagaaty-create/hagaaty_ai`.
+4. اترُك الإعدادات الافتراضية كما هي:
+   - **Framework Preset**: Next.js
+   - **Root Directory**: `./`
+   - **Build Command**: `npm run build`
+5. اضغط على **Deploy**.
+
+---
+
+## 🤖 بنية الـ GEO (Generative Engine Optimization) المدمجة
+- **`/llms.txt`**: ملف هيكلي مخصص لمحركات البحث القائمة على الذكاء الاصطناعي (ChatGPT, Gemini, Perplexity, Claude).
+- **JSON-LD Schemas**: وسم مفصل لـ (`Organization`, `ProfessionalService`, `OfferCatalog`, `FAQPage`).
+- **`robots.txt`**: سماح مطلق لكافة بوتات الذكاء الاصطناعي (`GPTBot`, `PerplexityBot`, `ClaudeBot`, `Bytespider`).
+- **Quick Answer Snippets**: إجابات مباشرة وسريعة على كافة الصفحات لرفع معدل الاستشهاد.
+
+---
+
+## 📞 بيانات التواصل والدعم المباشر
+- **الجهة المعتمدة**: Hagaaty AI السعودية
+- **الواتساب المباشر**: [+201008070666](https://wa.me/201008070666)
+- **الموقع الرسمي**: https://hagaaty.ai
 
 # 5. رفع المشروع إلى GitHub
 git push -u origin main

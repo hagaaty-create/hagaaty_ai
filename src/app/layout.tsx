@@ -14,20 +14,20 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Hagaaty AI | حاجاتي ذكاء اصطناعي وتسويق رقمي | ملكية أحمد",
-  description: "وكالة حاجاتي للذكاء الاصطناعي والتسويق الرقمي والتطوير البرمجي - خبير التسويق الرقمي والـ GEO وحسابات الإعلانات المعتمدة في المملكة العربية السعودية وكافة مناطقها (الرياض، جدة، الدمام، مكة، المدينة).",
+  title: "Hagaaty AI | حاجاتي للذكاء الاصطناعي والتسويق الرقمي بالسعودية",
+  description: "وكالة حاجاتي للذكاء الاصطناعي والتسويق الرقمي والتطوير البرمجي - الحلول الرسمية المعتمدة لتهيئة الذكاء الاصطناعي GEO، خرائط جوجل، وحسابات الإعلانات المعتمدة في المملكة العربية السعودية (الرياض، جدة، الدمام، مكة، المدينة وكافة المناطق).",
   keywords: [
     "Hagaaty AI", "حاجاتي AI", "تسويق رقمي السعودية", "تأسيس خرائط جوجل", "توثيق خرائط جوجل",
     "تحسين SEO محلي", "حسابات إعلانية agency", "حسابات إعلانات لوبان اللوجستية", "إعلانات حراج",
-    "إعلانات سناب شات السعودية", "تهيئة الذكاء الاصطناعي GEO", "تطوير تطبيقات السعودية", "زيادة متابعين وتوثيق حسابات"
+    "إعلانات سناب شات السعودية", "تهيئة الذكاء الاصطناعي GEO", "تطوير تطبيقات السعودية", "حلول الشركات السعودية"
   ],
   metadataBase: new URL("https://hagaaty.ai"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Hagaaty AI | تسويق رقمي وذكاء اصطناعي وحسابات وكالات بالسعودية",
-    description: "وكالة Hagaaty AI بإشراف الخبير أحمد لخدمات التسويق الرقمي، توثيق خرائط جوجل، حسابات Agency، وتهيئة الذكاء الاصطناعي GEO بالسعودية.",
+    title: "Hagaaty AI | حلول الذكاء الاصطناعي والتسويق الرقمي للشركات السعودية",
+    description: "وكالة Hagaaty AI المتخصصة في خدمات التسويق الرقمي، توثيق خرائط جوجل، حسابات Agency، وتهيئة محركات الذكاء الاصطناعي GEO لقطاع الأعمال بالمملكة العربية السعودية.",
     url: "https://hagaaty.ai",
     siteName: "Hagaaty AI",
     locale: "ar_SA",
@@ -35,6 +35,9 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
+  },
+  verification: {
+    google: "VH3xJ5sLqnQUY9Jci71o_lKTOK1GUXmC9frfVSCAc6s",
   },
 };
 
@@ -49,14 +52,9 @@ export default function RootLayout({
     "@type": "Organization",
     "@id": "https://hagaaty.ai/#organization",
     "name": "Hagaaty AI",
-    "alternateName": ["حاجاتي للذكاء الاصطناعي", "Hagaaty Marketing & AI Agency"],
+    "alternateName": ["حاجاتي للذكاء الاصطناعي", "Hagaaty Marketing & AI Agency KSA"],
     "url": "https://hagaaty.ai",
     "logo": "https://hagaaty.ai/favicon.ico",
-    "founder": {
-      "@type": "Person",
-      "name": "Ahmed",
-      "jobTitle": "CEO & Founder"
-    },
     "telephone": "+201008070666",
     "sameAs": [
       "https://wa.me/201008070666"
@@ -66,7 +64,7 @@ export default function RootLayout({
       "name": "Saudi Arabia",
       "alternateName": "المملكة العربية السعودية"
     },
-    "description": "وكالة متخصصة في التسويق الرقمي وتأسيس وتوثيق خرائط جوجل، وحسابات الإعلانات المعتمدة Agency Accounts، وتهيئة الذكاء الاصطناعي GEO في المملكة العربية السعودية."
+    "description": "وكالة متخصصة في التسويق الرقمي وتأسيس وتوثيق خرائط جوجل، وحسابات الإعلانات المعتمدة Agency Accounts، وتهيئة محركات الذكاء الاصطناعي GEO في المملكة العربية السعودية."
   };
 
   const professionalServiceSchema = {
@@ -165,7 +163,7 @@ export default function RootLayout({
         "name": "كيف يمكن التواصل المباشر مع Hagaaty AI والإدارة؟",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "يمكن التواصل المباشر عبر الهاتف أو الواتساب الرسمي مع الخبير أحمد على الرقم: +201008070666."
+          "text": "يمكن التواصل المباشر مع فريق الاستشارات وخدمة العملاء في Hagaaty AI عبر الهاتف والواتساب الرسمي: +201008070666."
         }
       }
     ]
@@ -174,9 +172,23 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl" className={`${cairo.variable} h-full scroll-smooth`}>
       <head>
+        <meta name="google-site-verification" content="VH3xJ5sLqnQUY9Jci71o_lKTOK1GUXmC9frfVSCAc6s" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         
+        {/* Google Analytics (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVGX91RZ2J" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NVGX91RZ2J');
+            `,
+          }}
+        />
+
         {/* Inject JSON-LD Schemas for GEO and Rich Results */}
         <script
           type="application/ld+json"

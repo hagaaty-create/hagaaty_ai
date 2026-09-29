@@ -65,7 +65,7 @@ export default function SocialGrowthPage() {
 
           <div className="pt-4 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-xs text-slate-400">
-              واتساب الخبير أحمد: <span dir="ltr" className="text-amber-400 font-mono font-bold">{PHONE_NUMBER}</span>
+              تواصل مع مستشاري Hagaaty AI: <span dir="ltr" className="text-amber-400 font-mono font-bold">{PHONE_NUMBER}</span>
             </div>
             <a
               href={waLink}

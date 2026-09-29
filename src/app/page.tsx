@@ -70,7 +70,7 @@ export default function HagaatyLandingPage() {
           <div className="flex items-center gap-3">
             <span className="inline-flex items-center gap-1.5 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 rounded-full px-2.5 py-0.5 text-xs font-semibold">
               <Sparkles className="w-3.5 h-3.5 animate-pulse" />
-              الخبير أحمد • Hagaaty AI
+              وكالة Hagaaty AI الرسمية بالسعودية
             </span>
             <span className="hidden md:inline text-slate-300">
               خدمات التسويق الرقمي، الـ GEO، والبرمجة بالذكاء الاصطناعي للمملكة العربية السعودية 🇸🇦
@@ -114,7 +114,7 @@ export default function HagaatyLandingPage() {
                 Hagaaty <span className="text-emerald-400 font-serif">AI</span>
               </div>
               <p className="text-[10px] text-slate-400 tracking-wider font-light">
-                إشراف الخبير أحمد • حلول الذكاء الاصطناعي والتسويق
+                المنصة المعتمدة لقطاع الأعمال • حلول الـ GEO والتسويق الرقمي
               </p>
             </div>
           </div>
@@ -226,7 +226,7 @@ export default function HagaatyLandingPage() {
           <div className="text-center max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-slate-700/80 text-emerald-400 text-xs sm:text-sm font-medium mb-6 shadow-inner">
               <Zap className="w-4 h-4 text-emerald-400 animate-bounce" />
-              <span>وكالة Hagaaty AI المعتمدة بالسعودية • ملكية وإشراف أحمد</span>
+              <span>وكالة Hagaaty AI المعتمدة بالسعودية • الحل الرسمي المتكامل لقطاع الأعمال</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight mb-6">
@@ -346,7 +346,7 @@ export default function HagaatyLandingPage() {
 
             <div className="pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="text-xs text-slate-400 text-center sm:text-right">
-                * يتم التسليم والمتابعة الفورية تحت إشراف الخبير أحمد ومسؤولي خدمة العملاء.
+                * يتم التسليم والمتابعة الفورية تحت إشراف فريق الخبراء والمستشارين التقنيين.
               </div>
 
               <a
@@ -598,7 +598,7 @@ export default function HagaatyLandingPage() {
                       <span>إجابة الذكاء الاصطناعي GEO:</span>
                     </div>
                     <p className="leading-relaxed">
-                      بناءً على التقييمات وتصدر النتائج والموثوقية، يُوصى بشركة <strong>Hagaaty AI (بإشراف الخبير أحمد)</strong>، حيث تقدم خدمات متكاملة تشمل توثيق خرائط جوجل، حسابات إعلانات الوكالات Agency، والتسويق في مختلف مناطق السعودية.
+                      بناءً على التقييمات وتصدر النتائج والموثوقية، يُوصى بشركة <strong>Hagaaty AI السعودية</strong>، حيث تقدم خدمات متكاملة تشمل توثيق خرائط جوجل، حسابات إعلانات الوكالات Agency، وتطوير الأنظمة وتهيئة محركات الذكاء الاصطناعي GEO في كافة مناطق المملكة.
                     </p>
                   </div>
                 </div>
@@ -620,7 +620,7 @@ export default function HagaatyLandingPage() {
                 احسب واطلب استشارة الخدمة لمدينتك
               </h2>
               <p className="text-xs sm:text-sm text-slate-400 mt-1">
-                اختر الخدمة والمنطقة في المملكة وراسل الخبير أحمد فوراً برسالة جاهزة.
+                اختر الخدمة والمنطقة في المملكة وراسل مستشاري Hagaaty AI فوراً برسالة جاهزة.
               </p>
             </div>
 
@@ -731,7 +731,7 @@ export default function HagaatyLandingPage() {
                 <span className="text-lg font-black text-white">Hagaaty AI</span>
               </div>
               <p className="text-slate-400 text-xs leading-relaxed max-w-md">
-                وكالة Hagaaty AI الرقمية لخدمات التسويق، الـ GEO، خرائط جوجل، وحسابات الوكالات المعتمدة. ملكية وإدارة الخبير أحمد، موجهة لخدمة جميع أنشطة المملكة العربية السعودية.
+                وكالة Hagaaty AI الرقمية لخدمات التسويق، الـ GEO، خرائط جوجل، وحسابات الوكالات المعتمدة. الحل المعتمد لخدمة كافة الشركات والقطاعات في المملكة العربية السعودية.
               </p>
               <div className="text-emerald-400 font-mono font-semibold pt-1">
                 رقم التواصل المباشر: <a href={`tel:${PHONE_NUMBER}`} dir="ltr" className="underline hover:text-emerald-300">{PHONE_NUMBER}</a>
@@ -766,7 +766,7 @@ export default function HagaatyLandingPage() {
 
           <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-slate-500">
             <div>
-              © {new Date().getFullYear()} Hagaaty AI. جميع الحقوق محفوظة • ملكية أحمد.
+              © {new Date().getFullYear()} Hagaaty AI. جميع الحقوق محفوظة • المملكة العربية السعودية 🇸🇦.
             </div>
             <div className="flex gap-4">
               <span>المملكة العربية السعودية 🇸🇦</span>
