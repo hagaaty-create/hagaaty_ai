@@ -40,6 +40,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://hagaaty.ai/sitemap.xml",
+    sitemap: "https://hagaatyai.vercel.app/sitemap.xml",
   };
 }
